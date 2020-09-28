@@ -66,7 +66,7 @@ int biCount(){	//func to count built in funcs
 int shell_setenv(char **args){
 	if(args[2]!=NULL){	//if 3 arguements
 		if(args[3]!=NULL){
-			for(int i=3; i<sizeof(args);i++){	//if more than 3 cat trailing args and space between
+			for(int i=3; i<sizeof(args) && args[i]!=NULL;i++){//if more than 3 cat trailing args and space between
 				strcat(args[2],args[i]);
 				strcat(args[2]," ");
 			}
