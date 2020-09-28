@@ -6,6 +6,8 @@ I used main arguement count to ensure that none were passed in start up
 
 I parsed the input using strtok to tokenize and parse out each arguement
 
+I implemented execvp along with the fork func to create child process and pid type vars
+
 I used the predefined exit,getenv and setenv funcs along with conditionals to implement built ins
 
 Built by: Tony Cruz, for Class: CMSC421(Operating Systems), Due: 9-27-20
