@@ -7,10 +7,14 @@ I used main arguement count to ensure that none were passed in start up
 I parsed the input using strtok to tokenize and parse out each arguement
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 I used execvp,fork, and pid type vars to create child processes for system executables
 =======
 In order to run the system executables I implemented execvp along with pid type vars and the fork func to create a child process
 >>>>>>> 1bd49570521c08e081541b72b80587f75aa27ded
+=======
+I implemented execvp along with the fork func to create child process and pid type vars
+>>>>>>> e2ee3a2225461de216b6ce2a39ac74f0509a765c
 
 I used the predefined exit,getenv and setenv funcs along with conditionals to implement built ins
 
